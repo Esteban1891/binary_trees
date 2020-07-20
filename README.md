@@ -1,4 +1,4 @@
-# C - Binary trees
+# C - Binary trees :deciduous_tree:
 
 ![binary_trees](https://i.pinimg.com/originals/c6/bb/08/c6bb08543696246a36c1d33438919afb.gif)
 
