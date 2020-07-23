@@ -23,13 +23,13 @@ struct binary_tree_s
     struct binary_tree_s *right;
 };
 
-typedef struct binary_tree_s binary_tree_t;
-/** Binary Search Tree */
-typedef struct binary_tree_s bst_t;
-/** AVL Tree */
-typedef struct binary_tree_s avl_t;
-/** Max Binary Heap */
-typedef struct binary_tree_s heap_t;
+// typedef struct binary_tree_s binary_tree_t;
+// /** Binary Search Tree */
+// typedef struct binary_tree_s bst_t;
+// /** AVL Tree */
+// typedef struct binary_tree_s avl_t;
+// /** Max Binary Heap */
+// typedef struct binary_tree_s heap_t;
 
 /** Print functions */
 void binary_tree_print(const binary_tree_t *);
@@ -37,6 +37,7 @@ void binary_tree_print(const binary_tree_t *);
 /** Functions of tasks */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
+void print_num(int n);
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
 
