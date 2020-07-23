@@ -35,6 +35,7 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 void print_num(int n);
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
+void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
 
 
 #endif /* _BINARY_TREES_H_ */
