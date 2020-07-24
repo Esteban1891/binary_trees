@@ -13,8 +13,10 @@ int binary_tree_balance(const binary_tree_t *tree)
 	if (!tree)
 		return (0);
 
-	right_count = binary_tree_height2(tree->right);
-	left_count = binary_tree_height2(tree->left);
+	if (tree->left != NULL)
+		left_count = binary_tree_height_2(tree->left);
+	if (tree->right != NULL)
+		right_count = binary_tree_height_2(tree->right);
 
 	return (right_count - left_count);
 }
